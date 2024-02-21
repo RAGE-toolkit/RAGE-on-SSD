@@ -6,6 +6,15 @@ Following are the necessary software required to create an ubuntu image
 1. (Ubnutu bootable ISO image can be dowloaded from](/https://ubuntu.com/download/desktop)
 2. [Oracle VirtualBox](https://www.virtualbox.org)
 
-## Creating an Ubuntu image
+## Creating VMBox Ubuntu image
 Install the VirtualBox and follow the below link to install ubuntu on VMBox
 https://ubuntu.com/tutorials/how-to-run-ubuntu-desktop-on-a-virtual-machine-using-virtualbox#1-overview
+
+## Installing Artic_nf workflow
+Once after sucessful installation of ubuntu on Virtual Box, it is now the time to install all the RAGE related software/packages.
+You can install all the necessary items step-by-step.
+
+### Download and install the Miniconda
+Downlaod the Miniconda from(https://docs.anaconda.com/free/miniconda/index.html)
+
+
