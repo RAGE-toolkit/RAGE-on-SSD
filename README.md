@@ -27,5 +27,17 @@ cd /home/<user_name>/Downloads/
 ```shell
 bash Miniconda3-latest-Linux-x86_64.sh
 ```
+During the installation. Proceed with "Yes" and run the conda init as metioned by the conda installation process.
 
+Once the conda is installed you can check it by running
+```shell
+bash
+```
+Its is recommended to add the following channels to conda. This will help in fetching the software/tools/packages.
+```shell
+conda config --add channels defaults
+conda config --add channels bioconda
+conda config --add channels conda-forge
+conda config --set channel_priority strict
+```
 
