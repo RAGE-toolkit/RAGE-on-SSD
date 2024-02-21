@@ -16,5 +16,16 @@ You can install all the necessary items step-by-step.
 
 ### Download and install the Miniconda
 [Downlaod the Miniconda](https://docs.anaconda.com/free/miniconda/index.html)
+Example:- lets assume you have downloaded a Miniconda file named "Miniconda3-latest-Linux-x86_64.sh" and it is located in your "Downloads" folder/directory.
+
+You can locate to your download directory using the terminal
+```shell
+cd /home/<user_name>/Downloads/
+```
+<user_name> is the name of your main directory. You can install the Miniconda as mentioned below.
+
+```shell
+bash Miniconda3-latest-Linux-x86_64.sh
+```
 
 
