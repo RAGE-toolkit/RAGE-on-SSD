@@ -29,7 +29,7 @@ bash Miniconda3-latest-Linux-x86_64.sh
 ```
 During the installation. Proceed with "Yes" and run the conda init as metioned by the conda installation process.
 
-Once the conda is installed you can check it by running
+Once the conda is installed you can check it by running. On sucess installation "(base)" will appear on your left side of your writing window in the terminal. 
 ```shell
 bash
 ```
