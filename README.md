@@ -64,9 +64,9 @@ mkdir /home/<user>/workshop_dir/data
 mkdir /home<user>/workshop_dir/backup
 mkdir /home/<user>/workshop_dir/tools
 ```
-**data**: Stores all the raw data
-**backup**: Stores all the workflows
-**tools**: Stores all the third-party tools such as dorado, seaview and others
+-  **data**: Stores all the raw data
+-  **backup**: Stores all the workflows
+-  **tools**: Stores all the third-party tools such as dorado, seaview and others
 
 
 
