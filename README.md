@@ -7,7 +7,7 @@ You need to have few stuffs to create the RAGE-on-SSD
 -  [balenaEtcher](https://etcher.balena.io) for creating the bootable image
 -  [RAGE image]()
 
-After downloading the RAGE image, launch balenaEtcher to flash the image onto your SSD. The process duration varies with your system's configuration but will complete in a few minutes. Upon completion, the SSD is ready for booting. 
+After downloading the RAGE image, launch balenaEtcher to flash the image onto your SSD. The process duration varies with your system's configuration but should complete in a few minutes. Upon completion, the SSD is ready for booting. 
 The default username is "rabv_1" with the password "rabv@123".
 
 **NOTE**: You may have higher storage capacity SSD, but this image is set to have 166GB, and once after creating bootable SSD, your SSD will turn into 166GB even if you have more storege space on your SSD.  If you want to utilize the
