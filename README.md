@@ -1,7 +1,7 @@
 # RAGE-on-SSD
 RAGE-on-SSD is an ubuntu image with all the RAGE workflow and data pre-installed. RAGE-on-SSD image works well with SSD drives. Although it may work with flash drives but the user may find operating system running much slower compared to SSD.
 
-## 1. Creating RAGE-on-SSD with exisiting image
+## 1. Creating RAGE-on-SSD with existing image
 You need to have few stuffs to create the RAGE-on-SSD
 -  SSD with atleast 250 GB storage
 -  [balenaEtcher](https://etcher.balena.io) for creating the bootable image
