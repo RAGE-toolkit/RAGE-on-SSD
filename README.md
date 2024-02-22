@@ -42,3 +42,14 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
+## Creating a directories
+There are few directories which needs to be created to store the data and third-party tools. 
+```shell
+mkdir /home/<user>/workshop_dir
+mkdir /home/<user>/workshop_dir/data
+mkdir /home<user>/workshop_dir/backup
+mkdir /home/<user>/workshop_dir/tools
+```
+*data: Stores all the raw data 
+
+
