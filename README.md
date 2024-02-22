@@ -1,7 +1,7 @@
 # RAGE-on-SSD
 RAGE-on-SSD is an ubuntu image with all the RAGE workflow and data pre-installed. RAGE-on-SSD image works well with SSD drives. Although it may work with flash drives but the user may find operating system running much slower compared to SSD.
 
-## Creating RAGE-on-SSD with exisiting image
+## 1 Creating RAGE-on-SSD with exisiting image
 You need to have few stuffs to create the RAGE-on-SSD
 -  SSD with atleast 250 GB storage
 -  [balenaEtcher](https://etcher.balena.io) for creating the bootable image
@@ -13,22 +13,22 @@ The default username is "rage_1" and the password "rabv@123".
 **NOTE**: You may have higher storage capacity SSD, but this image is set to have 166GB, and once after creating bootable SSD, your SSD will turn into 166GB even if you have more storege space on your SSD.  If you want to utilize the
 entire space of SSD, it is recommended to follow creating custom image.
 
-# Creating a custom image
+# 2 Creating a custom image
 
-## Requirments
+## 2.1 Requirments
 Following are the necessary software required to create an ubuntu image
 1. [Ubnutu bootable ISO image can be dowloaded from](/https://ubuntu.com/download/desktop)
 2. [Oracle VirtualBox](https://www.virtualbox.org)
 
-## Creating VMBox Ubuntu image
+## 2.2 Creating VMBox Ubuntu image
 Install the VirtualBox and follow the below link to install ubuntu on VMBox
 https://ubuntu.com/tutorials/how-to-run-ubuntu-desktop-on-a-virtual-machine-using-virtualbox#1-overview
 
-## Installing Artic_nf workflow
+## 2.3 Installing Artic_nf workflow
 After successful installation of ubuntu on Virtual Box, it is now the time to install all the RAGE related software/packages.
 You can install all the necessary tools/packages step-by-step.
 
-### Download and install the Miniconda
+### 2.3.1 Download and install the Miniconda
 [Downlaod the Miniconda](https://docs.anaconda.com/free/miniconda/index.html)
 Example:- let’s assume you have downloaded a Miniconda file named "Miniconda3-latest-Linux-x86_64.sh" and it is located in your "Downloads" folder/directory.
 
@@ -56,7 +56,7 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-## Creating a directories
+## 2.4 Creating a directories
 There are few directories which needs to be created to store the data and third-party tools. 
 ```shell
 mkdir /home/<user>/workshop_dir
@@ -80,7 +80,7 @@ cd
 mv <path_to_dorado_main_dir> /home/<user>/workshop_dir/tools
 
 ```
-### Installing Artic_nf and MADDOG
+## 2.5 Installing Artic_nf and MADDOG
 Locate yourself to backup directory and clone the Artic_nf and MADDOG repos. Assuming my user name as rage_1
 ```shell
 cd /home/rage_1/workshop_dir/backup
