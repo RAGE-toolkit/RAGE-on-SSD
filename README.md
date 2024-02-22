@@ -68,5 +68,34 @@ mkdir /home/<user>/workshop_dir/tools
 -  **backup**: Stores all the workflows
 -  **tools**: Stores all the third-party tools such as dorado, seaview and others
 
+Dorado requires manual downloading, and you can obtain it from the following link https://github.com/nanoporetech/dorado.
+After the download, it needs to be uncompressed and additional models need to be downloaded and dorado needs to be moved to tools directory as mentioned below.
+
+```shell
+tar -xvzf <path_to_dorado...tar.gz>
+<path_to_dorado_main_dir>/bin
+./dorado download --directory model
+mv model ./../
+cd
+mv <path_to_dorado_main_dir> /home/<user>/workshop_dir/tools
+
+```
+### Installing Artic_nf and MADDOG
+Locate yourself to backup directory and clone the Artic_nf and MADDOG repos. Assuming my user name as rage_1
+```shell
+cd /home/rage_1/workshop_dir/backup
+git clone https://github.com/RAGE-toolkit/Artic-nf.git
+cd Artic-nf
+conda env create --file environment.yml
+```
+
+```shell
+cd
+cd /home/rage_1/workshop_dir/backup/
+git clone https://github.com/KathrynCampbell/MADDOG/
+cd MADDOG
+conda env create --file environment.yml
+```
+
 
 
